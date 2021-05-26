@@ -4,18 +4,6 @@
 #  Description: Find the vertices of the smallest convex polygon that encloses a set of points.
 #               Print out area of convex hull using determinant. 
 
-#  Student Name: Samuel Lee
-
-#  Student UT EID: stl467
-
-#  Partner Name: Yuro Sato
-
-#  Partner UT EID: ys9434
-
-#  Course Name: CS313E
-
-#  Unique Number: 52240
-
 #  Date Created: 2/15/2021
 
 #  Date Last Modified: 2/15/2021
