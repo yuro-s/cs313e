@@ -2,18 +2,6 @@
 
 #  Description: Create shortest palindromic string
 
-#  Student Name: Samuel Lee
-
-#  Student UT EID: STL467
-
-#  Partner Name: Yuro Sato
-
-#  Partner UT EID: ys9434
-
-#  Course Name: CS 313E
-
-#  Unique Number: 52240
-
 #  Date Created: 2/28/2021
 
 #  Date Last Modified: 2/28/2021
