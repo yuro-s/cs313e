@@ -2,18 +2,6 @@
 
 #  Description: Create Ulam's spiral and sum the value around input value
 
-#  Student Name: Samuel Lee
-
-#  Student UT EID: STL467
-
-#  Partner Name: Yuro Sato
-
-#  Partner UT EID: YS9434
-
-#  Course Name: CS 313E
-
-#  Unique Number: 52240
-
 #  Date Created: 1/28/2021
 
 #  Date Last Modified: 1/28/2021
