@@ -1,18 +1,6 @@
 #  File: Reducible.py
 
-#  Description:
-
-#  Student Name:
-
-#  Student UT EID:
-
-#  Partner Name: Yuro Sato
-
-#  Partner UT EID: ys9434
-
-#  Course Name: CS 313E
-
-#  Unique Number: 52230
+#  Description: Find longest reducible word.
 
 #  Date Created: 3/30/2021
 
