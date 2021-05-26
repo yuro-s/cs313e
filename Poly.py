@@ -2,14 +2,6 @@
 
 #  Description: Creating a polynomial
 
-#  Student Name: Yuro Sato
-
-#  Student UT EID: ys9434
-
-#  Course Name: CS 313E
-
-#  Unique Number: 52230
-
 #  Date Created: 4/16/2021
 
 #  Date Last Modified: 4/16/2021
