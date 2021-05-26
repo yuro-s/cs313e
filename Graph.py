@@ -2,18 +2,6 @@
 
 #  Description: Complete various methods pertaining to graph modification and graph traversal.
 
-#  Student Name: Samuel Lee
-
-#  Student UT EID: stl467
-
-#  Partner Name: Yuro Sato
-
-#  Partner UT EID: ys9434
-
-#  Course Name: CS 313E
-
-#  Unique Number: 52230
-
 #  Date Created: 4/28/2021
 
 #  Date Last Modified: 4/28/2021
