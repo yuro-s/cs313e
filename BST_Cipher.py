@@ -2,18 +2,6 @@
 
 #  Description: Encryption and Decryption using BST
 
-#  Student Name: Samuel Lee
-
-#  Student UT EID: stl467
-
-#  Partner Name: Yuro Sato
-
-#  Partner UT EID: ys9434
-
-#  Course Name: CS 313E
-
-#  Unique Number: 52240
-
 #  Date Created: 4/18/2021
 
 #  Date Last Modified: 4/18/2021
