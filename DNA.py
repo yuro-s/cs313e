@@ -2,14 +2,6 @@
 
 #  Description: Create spiral and sum numbers around input.
 
-#  Student Name: Yuro Sato
-
-#  Student UT EID: ys9434
-
-#  Course Name: CS 313E
-
-#  Unique Number:
-
 #  Date Created: 1/27/2021
 
 #  Date Last Modified:
