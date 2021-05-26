@@ -5,18 +5,6 @@
 #               for each individual employee, based on the requested cubicle and 
 #               office parameters.
 
-#  Student Name: Samuel Lee
-
-#  Student UT EID: stl467
-
-#  Partner Name: Yuro Sato
-
-#  Partner UT EID: ys9434
-
-#  Course Name: CS313E
-
-#  Unique Number: 52240
-
 #  Date Created: 2/13/2021
 
 #  Date Last Modified: 2/14/2021
