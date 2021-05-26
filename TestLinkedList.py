@@ -1,18 +1,6 @@
 #  File: TestLinkedList.py
 
-#  Description:
-
-#  Student Name:
-
-#  Student UT EID:
-
-#  Partner Name: Yuro Sato
-
-#  Partner UT EID:ys9434
-
-#  Course Name: CS 313E
-
-#  Unique Number:52230
+#  Description: Implement various methods relating to Linked Lists.
 
 #  Date Created:4/8/2021
 
@@ -174,7 +162,38 @@ class LinkedList(object):
     # Sort the contents of a list in ascending order and return new list
     # do not change the original list
     def sort_list(self):
-        return
+        new_linked_list = self.copy_list()
+        flag = 0
+        # Use bubble sort to sort linked list
+        while(flag == 0):
+            # flag will determine if no more swaps are made after a pass, exist if no more swaps
+            flag = flag + 1
+            current = new_linked_list.first
+            previous = current
+            while current.next != None:
+                # if first element is bigger than second element, perform a swap
+                if current.data > current.next.data:
+                    # checks to see if there is a swap between first and second element in linked list
+                    if new_linked_list.first == current:
+                        temp = current.next
+                        new_linked_list.first = temp
+                        current.next = temp.next
+                        temp.next = current
+                        flag = 0
+                    # swaps rest of linked list if needed
+                    else:
+                        temp = current.next
+                        first = previous
+                        first.next = temp
+                        previous = temp
+                        current.next = temp.next
+                        temp.next = current
+                        flag = 0
+                else:
+                    previous = current
+                    current = current.next
+
+        return new_linked_list
 
 
     # Return True if a list is sorted in ascending order or False otherwise
@@ -203,26 +222,32 @@ class LinkedList(object):
     # do not change the original lists
     def merge_list(self, other):
         new_linked_list = LinkedList()
+        # create two variables that start at head of each linked list
         current_self = self.first
         other_self = other.first
+        # if the one of the lists is empty, return the other linked list
         if current_self == None:
             return other
         elif other_self == None:
             return self
-
+        # keep iterating through both lists until we reach teh end of both or one of the linked lists
         while((current_self != None) and (other_self != None)):
+            # if the data in linked list 1 is smller than data in linked list 2, inseert linkedlist1 data into new list
             if current_self.data < other_self.data:
                 new_linked_list.insert_last(current_self.data)
                 current_self = current_self.next
             else:
+                # insert linkedlist 2 data into new list
                 new_linked_list.insert_last(other_self.data)
                 other_self = other_self.next
-
+        # checks to see which linked list is empty if linked lists are unbalanced
         if current_self != None:
+            # if linkedlist 1 is not empty, put rest of contents into new linked list
             while(current_self != None):
                 new_linked_list.insert_last(current_self.data)
                 current_self = current_self.next
         elif other_self != None:
+            # if linkedlist 2 is not empty, put rest of contents into new linked list
             while(other_self != None):
                 new_linked_list.insert_last(other_self.data)
                 other_self = other_self.next
@@ -231,17 +256,18 @@ class LinkedList(object):
 
     # Test if two lists are equal, item by item and return True
     def is_equal(self, other):
-        
+        # if both lists are empty, then they are equal
         if other.is_empty == True and self.is_empty == True:
             return True
         current_self = self.first
         other_self = other.first
+        # iterate through both lists until the end is reached in either both or one list
         while((current_self != None) and (other_self != None)):
             if current_self.data != other_self.data:
                 return False    
             current_self = current_self.next
             other_self = other_self.next
-
+        # if there is still one linked list that is not empty then the linked lists are unbalanced and not equal
         if current_self != None or other_self != None:
             return False
 
@@ -250,15 +276,14 @@ class LinkedList(object):
     # and removing all duplicates. Do not change the order of the elements.
     # do not change the original list
     def remove_duplicates(self):
-
-        # put sort function in here!!!!!!!!!!!!!!!!!!!!!!!!
-
+        # first sort linked list for easy deletion later
         new_linked_list = self.copy_list()
         current = new_linked_list.first
         
         if current == None:
             return None
         else:
+            # checks to see if there is the same value next to the first occurance of a value
             while current.next != None:
                 if current.data == current.next.data:
                     new_linked_list.delete_link(current.data)
@@ -271,13 +296,6 @@ class LinkedList(object):
 def main():
 
     linked_list = LinkedList()
-# linked_list.insert_last(1)
-# linked_list.insert_last(1)
-# linked_list.insert_last(2)
-# linked_list.insert_last(5)
-# linked_list.insert_last(6)
-# linked_list.insert_last(6)
-# linked_list.insert_last(6)
 
 # print(linked_list.remove_duplicates())
 
