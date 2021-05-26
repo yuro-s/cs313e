@@ -4,18 +4,6 @@
 #  Description: Sort list of strings containing lower case letter and numbers 
 #               0-9 using modified Radix Sort.
 
-#  Student Name: Samuel Lee
-
-#  Student UT EID: stl467
-
-#  Partner Name: Yuro Sato
-
-#  Partner UT EID: ys9434
-
-#  Course Name: CS 313E
-
-#  Unique Number: 52230
-
 #  Date Created: 4/3/2021
 
 #  Date Last Modified: 4/3/2021
