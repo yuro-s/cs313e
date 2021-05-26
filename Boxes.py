@@ -2,18 +2,6 @@
 
 #  Description: Generate all subsets of boxes and find a largest subset and it's frequency
 
-#  Student Name: Samuel Lee
-
-#  Student UT EID: stl467
-
-#  Partner Name: Yuro Sato
-
-#  Partner UT EID: ys9434
-
-#  Course Name: CS 313E
-
-#  Unique Number:52230
-
 #  Date Created: 3/25/2021
 
 #  Date Last Modified: 3/25/2021
