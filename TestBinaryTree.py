@@ -2,18 +2,6 @@
 
 #  Description: Created various function associated binary search tree.
 
-#  Student Name: Samuel Lee
-
-#  Student UT EID: stl467
-
-#  Partner Name: Yuro Sato
-
-#  Partner UT EID: ys9434
-
-#  Course Name: CS 313E
-
-#  Unique Number: 52230
-
 #  Date Created: 4/25/2021
 
 #  Date Last Modified: 4/25/2021
