@@ -3,14 +3,6 @@
 
 #  Description: Find the greatest path sum
 
-#  Student Name: Yuro Sato
-
-#  Student UT EID: ys9434
-
-#  Course Name: CS 313E
-
-#  Unique Number: 52230
-
 #  Date Created:3/29/2021
 
 #  Date Last Modified:3/29/2021
