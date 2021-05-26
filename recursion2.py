@@ -2,18 +2,6 @@
 
 #  Description: Solving recursion exercises.
 
-#  Student Name: Samuel Lee
-
-#  Student UT EID: stl467
-
-#  Partner's Name: Yuro Sato
-
-#  Partner's UT EID: ys9434
-
-#  Course Name: CS 313E
-
-#  Unique Number: 52230
-
 #  Date Created: 3/11/2021
 
 #  Date Last Modified: 3/11/2021
