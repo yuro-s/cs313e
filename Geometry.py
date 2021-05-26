@@ -2,18 +2,6 @@
 
 #  Description: Multiple classes contains geometrical formulas
 
-#  Student Name: Yuro Sato
-
-#  Student UT EID: ys9434
-
-#  Partner Name:
-
-#  Partner UT EID:
-
-#  Course Name: CS 313E
-
-#  Unique Number: 52240
-
 #  Date Created: 2/6/2021
 
 #  Date Last Modified:
