@@ -3,18 +3,6 @@
 #  Description: Solve the Josephus problem given a starting soldier and a count n.
 #               Print executed soldiers in order.
 
-#  Student Name: Samuel Lee
-
-#  Student UT EID: stl467
-
-#  Partner Name: Yuro Sato
-
-#  Partner UT EID:ys9434
-
-#  Course Name: CS 313E
-
-#  Unique Number:52230
-
 #  Date Created:4/10/2021
 
 #  Date Last Modified:4/11/2021
