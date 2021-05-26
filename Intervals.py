@@ -2,18 +2,6 @@
 
 #  Description: Merge and sort intervals
 
-#  Student Name: Samuel Lee
-
-#  Student UT EID: STL467
-
-#  Partner Name: Yuro Sato
-
-#  Partner UT EID: YS9434
-
-#  Course Name: CS 313E
-
-#  Unique Number: 52240
-
 #  Date Created: 2/2/2021
 
 #  Date Last Modified: 2/2/2021
