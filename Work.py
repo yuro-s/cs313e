@@ -2,14 +2,6 @@
 
 #  Description: Finding minimum value by linear and binary search
 
-#  Student Name: Yuro Sato
-
-#  Student UT EID: ys9434
-
-#  Course Name: CS 313E
-
-#  Unique Number: 52230
-
 #  Date Created: 2/28/2021
 
 #  Date Last Modified: 2/28/2021
