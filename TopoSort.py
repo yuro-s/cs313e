@@ -2,18 +2,6 @@
 
 #  Description: Create method checking if graph has a cycle and perform a topological sort on graph.
 
-#  Student Name: Samuel Lee
-
-#  Student UT EID: stl467
-
-#  Partner Name: Yuro Sato
-
-#  Partner UT EID: ys9434
-
-#  Course Name: CS 313E
-
-#  Unique Number: 52230
-
 #  Date Created: 5/2/2021
 
 #  Date Last Modified: 5/2/2021
